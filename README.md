@@ -4,9 +4,10 @@
 
 **Arrowhead Discord Bot, upon the final version, will provide the following functions:**
 
-1. Provide links to external documents
-  + Links for Trello, links for github, links for Steam guides
-  + Links to external OPORDs, TACSOP, rank rosters
+<dl>
+  <dt>Provide links to external documents</dt>
+  <dd>Links for Trello, links for github, links for Steam guides</dd>
+  <dd>Links to external OPORDs, TACSOP, rank rosters</dd>
 2. Collapse some documents into Rich Embeds
   + Convert steam guides, external help docs into Rich Embeds for additional information (cheat sheets, role colors, etc.)
   + Convert Role or Loadout documents into Rich Embeds for easy viewing
