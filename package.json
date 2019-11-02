@@ -1,0 +1,23 @@
+{
+  "name": "arrowheadbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "arrowhead",
+    "bot"
+  ],
+  "author": "vega",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.1.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15"
+  }
+}
