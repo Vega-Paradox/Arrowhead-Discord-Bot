@@ -1,6 +1,7 @@
 # Arrowhead-Discord-Bot
 
 #### Discord bot for retrieving relevant Arrowhead documents, quality-of-life for the Arrowhead Discord, etc.
+-------------------------------------------------------------------------------------------------------------
 
 ##### Arrowhead Discord Bot, upon the final version, will provide the following functions:
 
