@@ -54,4 +54,4 @@ client.on("message", async message => {
         command.run(client, message, args);
 });
 
-client.login(process.env.token).catch(console.log);
+client.login(process.env.token).catch(console.log);5
