@@ -3,15 +3,14 @@ const { RichEmbed } = require('discord.js');
 
 module.exports = {
     name: "setup",
-    aliases: ["su", "stup", "modsetup", "walkthrough"],
+    aliases: ["su", "stup", "modsetup", "walkthrough", "tutorial", "howto"],
     category: "tutorials",
     description: "Provides a walkthrough to help a user set up their mods.",
-    usage: "{?setup <mod>}",
+    usage: "<?setup [mod]>",
     run: async (client, message, args) => {
         if (args[1] = "tfar") {
             const tfar = new RichEmbed()
-                .setDescription(`TFAR setup walkthrough.`)
-                .setFooter(`Next Page (2): References, Moderation`)
+                .setDescription(`TFAR set-up walkthrough.`)
                 .setColor("#e1a200")
                 .setThumbnail("https://cdn.discordapp.com/attachments/629903702534389770/629903871589875727/Arrowhead_White.png")
                 .setTitle("**TFAR Setup**")

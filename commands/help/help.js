@@ -6,9 +6,9 @@ module.exports = {
     aliases: ["h", "cmd", "commands", "bothelp"],
     category: "help",
     description: "Provides bot commands and extras.",
-    usage: "{?help <page#>}",
+    usage: "<?help [page#]>",
     run: async (client, message, args) => {
-        if (args[1] = "1") {
+        if (args[0] === '1' || !args.length) {
             const pg1 = new RichEmbed()
                 .setDescription(`Current Page (1): Tutorials, Roles`)
                 .setFooter(`Next Page (2): References, Moderation`)
@@ -20,8 +20,15 @@ module.exports = {
             message.author.send(pg1)
             message.reply(`sent you a list of commands!`).then(m => m.delete(2500))
         };
-
-        if (args.length < 0) {
+        if (args[0] === '2') {
+            const pg1 = new RichEmbed()
+                .setDescription(`Current Page (2): References, Moderation`)
+                .setFooter(``)
+                .setColor("#e1a200")
+                .setThumbnail("https://cdn.discordapp.com/attachments/629903702534389770/629903871589875727/Arrowhead_White.png")
+                .setTitle("**Arrowhead Bot Commands**")
+                .addField("*References*", `<?reference Med Cheatsheet> - Returns an ACE Med Cheatsheet.\n<?reference Role Colors> - Returns team colors for squad roles.\n<?reference Ranks> - Returns link to our rankings roster sheet.\n<?reference TACSOP> - Returns link to ASO's TACSOP.`, true)
+                .addField("*Moderation*", `<?kick [user]> - Kicks user, sends report to a log channel.\n<?ban [user]> - Bans user, sends report to a log channel.\n<?warn [user]> - Warns user, sends report to a log channel.`)
             message.author.send(pg1)
             message.reply(`sent you a list of commands!`).then(m => m.delete(2500))
         };

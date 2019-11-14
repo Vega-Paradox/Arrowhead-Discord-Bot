@@ -1,9 +1,12 @@
+const { Command } = require('discord.js-commando');
+const { RichEmbed } = require('discord.js');
+
 module.exports = {
     name: "developer",
     aliases: ["dev", "developer", "version", "ver", "botinfo", "binfo"],
     category: "info",
     description: "Provides bot/developer information.",
-    usage: "{?developer}",
+    usage: "<?developer>",
     run: async (client, message, args) => {
         const ver = (`../package.json/version`)
         message.channel.send(`*Arrowhead Bot* written by Vega Paradox.
