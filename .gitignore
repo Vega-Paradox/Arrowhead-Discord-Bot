@@ -1,3 +1,4 @@
-node_modules,
-Arrowhead.code-workspace,
+node_modules/
+Arrowhead.code-workspace
 start.bat
+package-lock.json
