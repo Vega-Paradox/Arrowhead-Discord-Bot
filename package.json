@@ -1,7 +1,7 @@
 {
   "name": "arrowheadbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "-------------------------------------------------------------------------------------------------------------",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -12,6 +12,14 @@
   ],
   "author": "vega",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vega-Paradox/Arrowhead-Discord-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vega-Paradox/Arrowhead-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/Vega-Paradox/Arrowhead-Discord-Bot#readme",
   "dependencies": {
     "ascii-table": "0.0.9",
     "discord.js": "^11.5.1",
